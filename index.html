@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bookzada Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d52215e960.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-sm bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><i class="fa-solid fa-book-open p-1"></i>Bookzada</a>
+                <button class="btn navbar-toggler" type="button" data-bs-toggle="collapse"      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Book Title, Author, etc." aria-label="Search">
+                        <button class="btn btn-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid padding">
+            <div class="header row text-center align-items-center">
+                
+                <div class="col-sm-12 col-md-6 padding order-md-last">
+                    <div class="header-img">
+                        <img src="assets/images/book1-1.jpg" alt="Uberman">
+                        <h2>Best selling book for this month</h2>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 padding order-md-first">
+                    <h1 class="header head-title">We're on Sale!</h1>
+                    <p class="header head-text">
+                        We have our Anniversary sale up to 40% off to your favorite books. It is for you our loyal readers who keeping reading everyday, we will make sure that your reading journey will never ends. Make sure to grab one!
+                    </p>
+                    <button class="btn btn-readmore">Read more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container padding">
+            <div class="row padding text align-items-center justify-content-center">
+                
+                <div class="col-sm-9 col-md-4 col-lg-3 text-center padding">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/images/b1.png" alt="Uberman" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title">Uberman</h2>
+                            <h5 class="card-author">by Zero A.D.</h5>
+                            <h5 class="card-rating">
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star"></span> 
+                            </h5>
+                            <h5 class="card-price text-danger">$7.95</h5>
+                            <button class="add-to-cart p-1">Add to cart</button>
+                            <button type = "button" class="buy-now p-1" data-bs-toggle="modal" data-bs-target="#checkout">Buy now!</button>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="col-sm-9 col-md-4 col-lg-3 text-center padding">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/images/b1.png" alt="Uberman" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title">Uberman</h2>
+                            <h5 class="card-author">by Zero A.D.</h5>
+                            <h5 class="card-rating">
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star"></span> 
+                            </h5>
+                            <h5 class="card-price text-danger">$7.95</h5>
+                            <button class="add-to-cart p-1">Add to cart</button>
+                            <button type = "button" class="buy-now p-1" data-bs-toggle="modal" data-bs-target="#checkout">Buy now!</button>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="col-sm-9 col-md-4 col-lg-3 text-center padding">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/images/b1.png" alt="Uberman" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title">Uberman</h2>
+                            <h5 class="card-author">by Zero A.D.</h5>
+                            <h5 class="card-rating">
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star"></span> 
+                            </h5>
+                            <h5 class="card-price text-danger">$7.95</h5>
+                            <button class="add-to-cart p-1">Add to cart</button>
+                            <button type = "button" class="buy-now p-1" data-bs-toggle="modal" data-bs-target="#checkout">Buy now!</button>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="col-sm-9 col-md-4 col-lg-3 text-center padding">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/images/b1.png" alt="Uberman" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title">Uberman</h2>
+                            <h5 class="card-author">by Zero A.D.</h5>
+                            <h5 class="card-rating">
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star"></span> 
+                            </h5>
+                            <h5 class="card-price text-danger">$7.95</h5>
+                            <button class="add-to-cart p-1">Add to cart</button>
+                            <button type = "button" class="buy-now p-1" data-bs-toggle="modal" data-bs-target="#checkout">Buy now!</button>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="col-sm-9 col-md-4 col-lg-3 text-center padding">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/images/b1.png" alt="Uberman" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title">Uberman</h2>
+                            <h5 class="card-author">by Zero A.D.</h5>
+                            <h5 class="card-rating">
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star"></span> 
+                            </h5>
+                            <h5 class="card-price text-danger">$7.95</h5>
+                            <button class="add-to-cart p-1">Add to cart</button>
+                            <button type = "button" class="buy-now p-1" data-bs-toggle="modal" data-bs-target="#checkout">Buy now!</button>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="col-sm-9 col-md-4 col-lg-3 text-center padding">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/images/b1.png" alt="Uberman" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title">Uberman</h2>
+                            <h5 class="card-author">by Zero A.D.</h5>
+                            <h5 class="card-rating">
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star"></span> 
+                            </h5>
+                            <h5 class="card-price text-danger">$7.95</h5>
+                            <button class="add-to-cart p-1">Add to cart</button>
+                            <button type = "button" class="buy-now p-1" data-bs-toggle="modal" data-bs-target="#checkout">Buy now!</button>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="col-sm-9 col-md-4 col-lg-3 text-center padding">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/images/b1.png" alt="Uberman" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title">Uberman</h2>
+                            <h5 class="card-author">by Zero A.D.</h5>
+                            <h5 class="card-rating">
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star"></span> 
+                            </h5>
+                            <h5 class="card-price text-danger">$7.95</h5>
+                            <button class="add-to-cart p-1">Add to cart</button>
+                            <button type = "button" class="buy-now p-1" data-bs-toggle="modal" data-bs-target="#checkout">Buy now!</button>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="col-sm-9 col-md-4 col-lg-3 text-center padding">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/images/b1.png" alt="Uberman" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title">Uberman</h2>
+                            <h5 class="card-author">by Zero A.D.</h5>
+                            <h5 class="card-rating">
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star checked text-warning"></span>
+                                <span class="fa fa-star"></span> 
+                            </h5>
+                            <h5 class="card-price text-danger">$7.95</h5>
+                            <button class="add-to-cart p-1">Add to cart</button>
+                            <button type = "button" class="buy-now p-1" data-bs-toggle="modal" data-bs-target="#checkout">Buy now!</button>
+                        </div>
+                    </div>
+                </div>  
+
+                
+
+            </div>
+        </div> 
+
+    <!-- FOOTER SECTION -->
+        <div class="container-fluid">
+            <div class="row footer-row text-center align-items-center">
+                <div class="col-md-6 ">
+                    <h4>Need help?</h4>
+                    <h4>You can contact us on</h4>
+                    <h4>helpcenter@bookzada.com</h4>
+                </div>
+
+                <div class="col-md-6">
+                    <h4>Follow us on</h4>
+                    <h3>
+                        <span>
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </span>
+                    </h3>
+                    <h3> Copyright 2023. All rights reserved.</h3>
+                </div>
+
+            </div>
+        </div>
+        
+
+    <!-- Modal Section -->
+        <div class="modal fade" id="checkout" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    <a class="navbar-brand" href="#"><i class="fa-solid fa-book-open p-1"></i>Bookzada</a>
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <form class="row g-3">
+                    <H2 class="checkout text-center">Checkout Form</H2>
+        
+                    <div class="col-md-6">
+                        <label class="form-label">First Name</label>
+                        <input type="text" class="form-control" placeholder="ex. Juan">
+                    </div>
+        
+                    <div class="col-md-6">
+                        <label class="form-label">Last Name</label>
+                        <input type="text" class="form-control" placeholder="ex. Dela Cruz">
+                    </div>
+        
+                    <div class="col-12">
+                        <label class="form-label">Complete Address</label>
+                        <input type="text" class="form-control" placeholder="# Street, Barangay, City, Province">
+                    </div>
+        
+                    <div class="col-md-6">
+                        <label class="form-label">Contact Number</label>
+                        <input type="number" class="form-control" placeholder="09xxxxxxxxx">
+                    </div>
+        
+                    <div class="col-md-6">
+                        <label>Payment Method:</label>
+                        <p class="payment-method px-3">
+                            <input type="radio" name="payment" id="cod" value="cod" required>
+                            <label for="cod">Cash on Delivery</label>
+                            <br>
+        
+                            <input type="radio" name="payment" id="creditCard" value="creditCard" required>
+                            <label for="creditCard">Credit Card</label>
+                            <br>
+                    
+                            <input type="radio" name="payment" id="bookzadaPay" value="bookzadaPay" required>
+                            <label for="bookzadaPay">Bookzadapay</label>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-back" data-bs-dismiss="modal">Back</button>
+                    <button class="btn btn-confirm" >Confirm</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>
